@@ -11,6 +11,7 @@
 @interface PositionViewController ()
 @property (strong, nonatomic) IBOutlet UIView *blueSquare;// 蓝色方块
 @property (strong, nonatomic) IBOutlet UIView *redSquare;// 红色方块
+@property (strong, nonatomic) IBOutlet UIView *greenSquare;// 绿色方块
 
 @end
 
@@ -35,7 +36,15 @@
         CGPoint redCenter = self.redSquare.center;
         redCenter.y = self.view.bounds.size.height - self.redSquare.center.y;
         self.redSquare.center = redCenter;
+        
+        // 改变绿色方块位置
+        CGPoint greenCenter = self.greenSquare.center;
+        greenCenter.x = self.view.bounds.size.width - self.greenSquare.center.x;
+        greenCenter.y = self.view.bounds.size.height - self.greenSquare.center.y;
+        self.greenSquare.center = greenCenter;
     }];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

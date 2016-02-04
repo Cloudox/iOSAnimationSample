@@ -63,8 +63,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.14117647707462311" green="0.78431379795074463" blue="0.94117653369903564" alpha="1" colorSpace="deviceRGB"/>
                             </view>
+                            <view contentMode="scaleToFill" id="RFU-bg-76M">
+                                <rect key="frame" x="220" y="77" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.25882354378700256" green="0.83921575546264648" blue="0.16862745583057404" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
                             <view contentMode="scaleToFill" id="yfJ-oC-Jh3">
-                                <rect key="frame" x="114" y="77" width="80" height="80"/>
+                                <rect key="frame" x="120" y="77" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89803928136825562" green="0.1098039299249649" blue="0.55294120311737061" alpha="1" colorSpace="deviceRGB"/>
                             </view>
@@ -74,6 +79,7 @@
                     <navigationItem key="navigationItem" id="JA8-9c-NQH"/>
                     <connections>
                         <outlet property="blueSquare" destination="g0V-fx-KQb" id="kcM-SU-eyW"/>
+                        <outlet property="greenSquare" destination="RFU-bg-76M" id="d7I-OO-tRo"/>
                         <outlet property="redSquare" destination="yfJ-oC-Jh3" id="Dot-4J-wgX"/>
                     </connections>
                 </viewController>
