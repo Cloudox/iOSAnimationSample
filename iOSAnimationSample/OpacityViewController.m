@@ -28,7 +28,9 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
+    // 开始透明度动画（一秒完成）
     [UIView animateWithDuration:1 animations:^{
+        // 透明度变为0.1
         self.blueSquare.alpha = 0.1;
     }];
 }

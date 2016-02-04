@@ -25,7 +25,7 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    // 在进入界面的时候开始动画
+    // 在进入界面的时候开始动画（一秒完成）
     [UIView animateWithDuration:1 animations:^{
         // 改变蓝色方块的位置
         CGPoint blueCenter = self.blueSquare.center;
@@ -33,7 +33,7 @@
         self.blueSquare.center = blueCenter;
     }];
     
-    // 延迟进行的动画
+    // 延迟进行的动画（延迟0.5秒开始）
     [UIView animateWithDuration:1 delay:0.5 options:nil animations:^{
         // 改变红色方块的位置
         CGPoint redCenter = self.redSquare.center;
