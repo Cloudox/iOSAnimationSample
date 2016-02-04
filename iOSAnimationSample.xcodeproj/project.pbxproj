@@ -15,6 +15,7 @@
 		B8E82F391C639A3600EB5E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E82F371C639A3600EB5E18 /* LaunchScreen.storyboard */; };
 		B8E82F441C639A3600EB5E18 /* iOSAnimationSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E82F431C639A3600EB5E18 /* iOSAnimationSampleTests.m */; };
 		B8E82F4F1C639A3600EB5E18 /* iOSAnimationSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E82F4E1C639A3600EB5E18 /* iOSAnimationSampleUITests.m */; };
+		B8E82F5E1C639D7800EB5E18 /* PositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E82F5D1C639D7800EB5E18 /* PositionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B8E82F4A1C639A3600EB5E18 /* iOSAnimationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAnimationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E82F4E1C639A3600EB5E18 /* iOSAnimationSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSAnimationSampleUITests.m; sourceTree = "<group>"; };
 		B8E82F501C639A3600EB5E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E82F5C1C639D7800EB5E18 /* PositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionViewController.h; sourceTree = "<group>"; };
+		B8E82F5D1C639D7800EB5E18 /* PositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B8E82F2D1C639A3600EB5E18 /* AppDelegate.m */,
 				B8E82F2F1C639A3600EB5E18 /* ViewController.h */,
 				B8E82F301C639A3600EB5E18 /* ViewController.m */,
+				B8E82F5C1C639D7800EB5E18 /* PositionViewController.h */,
+				B8E82F5D1C639D7800EB5E18 /* PositionViewController.m */,
 				B8E82F321C639A3600EB5E18 /* Main.storyboard */,
 				B8E82F351C639A3600EB5E18 /* Assets.xcassets */,
 				B8E82F371C639A3600EB5E18 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				B8E82F311C639A3600EB5E18 /* ViewController.m in Sources */,
 				B8E82F2E1C639A3600EB5E18 /* AppDelegate.m in Sources */,
 				B8E82F2B1C639A3600EB5E18 /* main.m in Sources */,
+				B8E82F5E1C639D7800EB5E18 /* PositionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
