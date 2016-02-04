@@ -31,20 +31,24 @@
         CGPoint blueCenter = self.blueSquare.center;
         blueCenter.x = self.view.bounds.size.width - self.blueSquare.center.x;
         self.blueSquare.center = blueCenter;
-        
+    }];
+    
+    // 延迟进行的动画
+    [UIView animateWithDuration:1 delay:0.5 options:nil animations:^{
         // 改变红色方块的位置
         CGPoint redCenter = self.redSquare.center;
         redCenter.y = self.view.bounds.size.height - self.redSquare.center.y;
         self.redSquare.center = redCenter;
-        
+    } completion:nil];
+    
+    // 延迟进行的动画
+    [UIView animateWithDuration:1 delay:1 options:nil animations:^{
         // 改变绿色方块位置
         CGPoint greenCenter = self.greenSquare.center;
         greenCenter.x = self.view.bounds.size.width - self.greenSquare.center.x;
         greenCenter.y = self.view.bounds.size.height - self.greenSquare.center.y;
         self.greenSquare.center = greenCenter;
-    }];
-    
-    
+    } completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
