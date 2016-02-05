@@ -19,6 +19,7 @@
 		B8E82F611C63AF1600EB5E18 /* OpacityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E82F601C63AF1600EB5E18 /* OpacityViewController.m */; };
 		B8E82F641C64568000EB5E18 /* ScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E82F631C64568000EB5E18 /* ScaleViewController.m */; };
 		B8E82F671C64BDCA00EB5E18 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E82F661C64BDCA00EB5E18 /* ColorViewController.m */; };
+		B8E82F6A1C64C23F00EB5E18 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E82F691C64C23F00EB5E18 /* RotationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		B8E82F631C64568000EB5E18 /* ScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleViewController.m; sourceTree = "<group>"; };
 		B8E82F651C64BDCA00EB5E18 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
 		B8E82F661C64BDCA00EB5E18 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		B8E82F681C64C23F00EB5E18 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		B8E82F691C64C23F00EB5E18 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				B8E82F631C64568000EB5E18 /* ScaleViewController.m */,
 				B8E82F651C64BDCA00EB5E18 /* ColorViewController.h */,
 				B8E82F661C64BDCA00EB5E18 /* ColorViewController.m */,
+				B8E82F681C64C23F00EB5E18 /* RotationViewController.h */,
+				B8E82F691C64C23F00EB5E18 /* RotationViewController.m */,
 				B8E82F321C639A3600EB5E18 /* Main.storyboard */,
 				B8E82F351C639A3600EB5E18 /* Assets.xcassets */,
 				B8E82F371C639A3600EB5E18 /* LaunchScreen.storyboard */,
@@ -292,6 +297,7 @@
 			files = (
 				B8E82F311C639A3600EB5E18 /* ViewController.m in Sources */,
 				B8E82F641C64568000EB5E18 /* ScaleViewController.m in Sources */,
+				B8E82F6A1C64C23F00EB5E18 /* RotationViewController.m in Sources */,
 				B8E82F611C63AF1600EB5E18 /* OpacityViewController.m in Sources */,
 				B8E82F2E1C639A3600EB5E18 /* AppDelegate.m in Sources */,
 				B8E82F2B1C639A3600EB5E18 /* main.m in Sources */,

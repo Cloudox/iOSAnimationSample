@@ -96,6 +96,26 @@
                                             <segue destination="IOC-OY-UcA" kind="push" id="oov-RO-hjf"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="vZA-Mg-637" style="IBUITableViewCellStyleDefault" id="98l-Gr-5a0">
+                                        <rect key="frame" x="0.0" y="240" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="98l-Gr-5a0" id="gJW-Qb-S1s">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Rotation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vZA-Mg-637">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="1TJ-Sm-8vC" kind="push" id="pKt-fJ-Adp"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -232,6 +252,30 @@
             </objects>
             <point key="canvasLocation" x="1079" y="2743"/>
         </scene>
+        <!--Rotation View Controller-->
+        <scene sceneID="L2C-3c-vPN">
+            <objects>
+                <viewController id="1TJ-Sm-8vC" customClass="RotationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Afk-Dc-dF4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="wheel" id="o93-ry-Pv6">
+                                <rect key="frame" x="10" y="101" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yOq-ak-t21"/>
+                    <connections>
+                        <outlet property="wheelImg" destination="o93-ry-Pv6" id="HAF-aX-PQt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oq4-er-rJv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1079" y="3381"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Z8I-3d-taK">
             <objects>
@@ -251,4 +295,7 @@
             <point key="canvasLocation" x="126" y="845"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="wheel" width="894" height="894"/>
+    </resources>
 </document>

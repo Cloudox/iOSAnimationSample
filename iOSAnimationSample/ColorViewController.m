@@ -29,6 +29,7 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
+    // 改变颜色
     [UIView animateWithDuration:1 animations:^{
         self.blueSquare.backgroundColor = [UIColor redColor];
         self.nameLabel.textColor = [UIColor whiteColor];
